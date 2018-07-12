@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>THE GAEM</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<section class="playground">
+		<div class="playground__upper">
+			<div class="stats">
+				<div class="stats__lives">
+					<span class="lives">Lives: </span>
+					<span class="lives__counter">5</span>
+				</div>
+				<div class="stats__score">
+					<span class="score">Score: </span>
+					<span class="score__counter">0</span>
+				</div>
+			</div>
+		</div>
+		<div class="playground__wrapper">
+			<div class="brothr hidden">
+				<video class="brothr__video">
+					<source src="img/BROTHER.mp4">
+				</video>
+			</div>
+			<img id="player" class="player" src="img/jiub.png" width="120" height="115" style="top: 30%">
+			<img class="panin hidden" src="img/final_boss.png" width="144" height="212" style="top: 30%; opacity: 0.01">
+			<img class="missile hidden" src="img/fire.png" width="100" height="40">
+			<img class="enemy enemy1 hidden" src="img/enemy.png" width="40" height="40">
+			<img class="enemy enemy2 hidden" src="img/enemy2.png" width="40" height="40">
+			<img class="spinner hidden" src="img/spinner.gif" width="70" height="70">
+			<img class='atak hidden' src='img/atak1.png'>
+		</div>
+		<div class="playground__lower"></div>
+	</section>
+
+	<script src="script/base.js"></script>
+	<script src="script/player.js"></script>
+	<script src="script/missile.js"></script>
+	<script src="script/enemy.js"></script>
+	<script src="script/final_boss.js"></script>
+	<script src="script/spinner.js"></script>
+	<script src="script/script.js"></script>
+
+</body>
+</html>

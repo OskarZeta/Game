@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+	//background-color: grey;
+}
+.brothr{
+	//height: 100%;
+	position: absolute;
+	//display: none;
+}
+.brothr video{
+	//height: 100%;
+}
+.start{
+	display: block;
+	margin: auto;
+	//width: 200px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #340a5b;
+	border: 10px solid #6812ae;
+	border-radius: 50px;
+	padding: 20px 40px;
+	background-color: #21ded5;
+}
+.start:hover{
+	background-color: #9fded8;
+}
+.playground{
+	background-color: darkblue;
+	min-height: 620px;
+	max-height: 1200px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.playground__upper, .playground__lower{
+	position: relative;
+	height: 10%;
+	width: 100%;
+}
+.stats{
+	position: absolute;
+	display: flex;
+	background-color: white;
+	min-height: 80%;
+	//min-width: 250px;
+	//min-height: 30px;
+	//height: 70px;
+	top: 8%;
+	left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	//line-height: 40px;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 0 50px;
+}
+.stats__lives{
+	margin: auto 10px auto 0;
+}
+.stats__score{
+	margin: auto 0;
+}
+.playground__wrapper{
+	//background-color: #32bede;
+	background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+	align-self: center;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	overflow: hidden;
+}
+.playground__wrapper--menu{
+	display: flex;
+	background-color: #32bede;
+	align-self: center;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	overflow: hidden;
+}
+.playground__wrapper--gameover{
+	background-color: black;
+}
+
+.player{
+	position: absolute;
+	//top: 30%;
+	z-index: 666;
+}
+.missile{
+	position: absolute;
+}
+.enemy, .enemy1, .enemy2{
+	position: absolute;
+}
+.panin{
+	position: absolute;
+	//display: none;
+	//top: 30%;
+}
+.spinner{
+	position: absolute;
+}
+.atak{
+	position: absolute;
+	height: 100%;
+	z-index: 0;
+	//top: 0;
+}
+.death{
+	width: 100%;
+	height: 100%;
+}
+.hidden{
+	display: none;
+}
